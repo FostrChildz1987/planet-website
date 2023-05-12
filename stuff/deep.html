@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head >
+        <meta charset="utf-8">
+        <title>Planets</title>
+
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="lightbox2-dev\dist\css\lightbox.css">
+        
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="lightbox2-dev\dist\js\lightbox.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Jaden's Planetarium</a></h1>
+            <h3>Deep Sky Gallery</h3>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Solar System</a></li>
+                <li><a href="galaxy.html">Galaxies</a></li>
+                <li><a href="deep.html"> Other Deep Sky Objects</a></li>
+                <li><a href="apod.html">NASA Photo of the Day Index</a></li>
+                <li><a href="marsrover.html">Mars Rovers Photo Archive</a></li>
+                <li><a href="report.pdf">Light Pollution Proposal</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+            <div class="jcarousel-wrapper">
+                <div id="Planets" class="jcarousel">
+                    <ul>
+                        <li><a href="images/mountain.jpg" data-lightbox="vecta" data-title="Mystic Mountain - Carina Nebula"><img src="images/mountain.jpg" style="border:10px solid rgb(73, 73, 73)" alt="NASA Photo" width=600></a></li>
+                        <li><a href="images/horse.jpg" data-lightbox="vecta" data-title="Horsehead - Barnard 33"><img src="images/horse.jpg" style="border:10px solid rgb(73, 73, 73)" alt="NASA Photo" width=600></a></li>
+                        <li><a href="images/pleiades.jpg" data-lightbox="vecta" data-title="Messier Object 45 - Pleiades Constellation"><img src="images/pleiades.jpg" style="border:10px solid rgb(73, 73, 73)" alt="NASA Photo" width=600></a></li>
+                        <li><a href="images/crabs.jpg" data-lightbox="vecta" data-title="Messier Object 1 - Crab Nebula"><img src="images/crabs.jpg" style="border:10px solid rgb(73, 73, 73)" alt="NASA Photo" width=600></a></li>
+                        <li><a href="images/sauron.jpg" data-lightbox="vecta" data-title="'Eye of Sauron' - Fomalhaut"><img src="images/sauron.jpg" style="border:10px solid rgb(73, 73, 73)" alt="NASA Photo" width=600></a></li>
+                        <li><a href="images/planetary.jpg" data-lightbox="vecta" data-title="Messier Object 57 - Ring Nebula"><img src="images/planetary.jpg" style="border:10px solid rgb(73, 73, 73)" alt="NASA Photo" width=600></a></li>
+                        <li><a href="images/nibiru.jpg" data-lightbox="vecta" data-title="Light Echo - V838 Monocerotis"><img src="images/nibiru.jpg" style="border:10px solid rgb(73, 73, 73)" alt="NASA Photo" width=600></a></li>
+                    </ul>
+                </div>
+
+                <p class="photo-credits">
+                    Photos by <a href="https://NASA.gov">National Aeronautics and Space Administration</a>
+                </p>
+
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                
+            </div>
+        </div>
+
+    </body>
+    <script src="nonapod.js"></script>
+    <script>
+        lightbox.option({
+          'resizeDuration': 200,
+        })
+    </script>
+</html>

@@ -1,0 +1,77 @@
+body{
+
+    background-image: url("427165.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(19, 19, 19);
+
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.523);
+    color: rgba(255, 255, 255, 0.692);
+    text-align: center;
+    padding: 0.1px;
+}
+
+label{
+    color: rgba(255, 255, 255, 0.74);
+}
+
+#labels{
+    text-align: center;
+}
+p {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.523);
+    line-height: 2em;
+    display:block
+}
+nav ul{
+    text-align: center;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 2.5em;
+}
+nav a:link{
+    color: rgba(255, 255, 255, 0.74);;
+    text-decoration: none;
+}
+nav a:visited{
+    color: rgba(255, 255, 255, 0.74);;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:active{
+    color: #FCE570;
+}
+
+input[type=text], input[type=button], select{
+    background-color: rgba(255, 255, 255, 0.232);
+    color: rgba(255, 255, 255, 0.74);
+}
+
+header a:link{
+    color: rgba(255, 255, 255, 0.692);
+    text-decoration: none;
+}
+header a:visited{
+    color: rgba(255, 255, 255, 0.692);
+}
+header a:hover{
+    text-decoration: none;
+}
+header a:active{
+    color: #FCE570;
+}
+
+option {
+    background-color: rgb(128, 128, 128);
+
+}
